@@ -21,6 +21,21 @@
   <link rel="stylesheet" href="css/style.css">
 
   <title>Swarnnika</title>
+
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+  (function() {
+  emailjs.init("user_qCg4rx8KMfx1Xnyeam2Ls");
+  })();
+  </script>
+
+
+<style>
+  #mynav{display: flex;}
+  #mynav>div{padding:1px 50px; font-size: 26px; color: #000; cursor: pointer;font-weight: 600;}
+</style>
+
 </head>
 
 <body>
@@ -259,7 +274,7 @@
                 <!-- list item -->
                 <li>Flask, Python, ML</li>
 
-                <li>Tailwind,Bootstrap</li>
+                <li>Tailwind, Bootstrap</li>
                 <!-- list item -->
                 <li>Three.Js, Webpack, Mocha</li>
                 <!-- list item -->
@@ -326,6 +341,27 @@
               <!-- container -->
               <div class="container-fluid">
 
+                 <!-- trial start -->
+                 <div class="row p-60-0 p-lg-30-0 p-md-15-0">
+                  
+                  <div class="col-lg-12">
+
+
+                    <div class="art-a art-banner" style="background-image: url(img/bg.jpg)">
+                      <!-- banner back -->
+                      <div class="art-banner-back"></div>
+                      <div id='mynav'>
+                      <div>Contact</div>
+                      <div>Works</div>
+                      <div>Skills</div>
+                    </div>
+                    </div>
+                   </div>
+                  </div>
+                 <!-- trial end -->
+
+
+
                 <!-- row -->
                 <div class="row p-60-0 p-lg-30-0 p-md-15-0">
                   <!-- col -->
@@ -365,6 +401,12 @@
                   <!-- col end -->
                 </div>
                 <!-- row end -->
+
+
+    <!-- trial start -->
+
+           
+                <!-- trial end -->
 
               </div>
               <!-- container end -->
@@ -994,14 +1036,15 @@
                       <div class="art-table p-15-15">
                         <ul>
                           <li>
-                            <h6>Country:</h6><span>India</span>
+                           <h6>LinkedIn :</h6><h6> <a href="https://www.linkedin.com/in/swarnnika-raj-singh-a6731914b/" target="_blank"><i class="fab fa-linkedin-in"></i></a></h6>
+                           
                           </li>
                           <li>
-                            <h6>City:</h6><span>Patna</span>
+                            <h6>Github:</h6><h6> <a href="https://github.com/swarnikaraj/" target="_blank"><i class="fab fa-github"></i></a></h6>
                           </li>
 
                           <li>
-                            <h6>Streat:</h6><span>51 Kankarbagh</span>
+                            <h6>Instagram:</h6><h6></h6><a href="https://www.instagram.com/swarnikarajsingh/" target="_blank"><i class="fab fa-instagram"></i></i></a></h6>
                           </li>
                         </ul>
                       </div>
@@ -1099,7 +1142,7 @@
                         <!-- form field end -->
                         <!-- button -->
                         <div class="art-submit-frame">
-                          <button class="art-btn art-btn-md art-submit" type="submit"><span>Send message</span></button>
+                          <button class="art-btn art-btn-md art-submit" type="submit" onclick="sendMail()"><span>Send message</span></button>
                           <!-- success -->
                           <div class="art-success">Success <i class="fas fa-check"></i></div>
                         </div>
@@ -1164,7 +1207,7 @@
                 <!-- footer -->
                 <footer>
                   <!-- copyright -->
-                  <div>© 2020 Swarnnika Raj Singh</div>
+                  <div>© 2022 Swarnnika Raj Singh</div>
                   <!-- author ( Please! Do not delete it. You are awesome! :) -->
                   <div>Template author:&#160; <a href="https://themeforest.net/user/millerdigitaldesign" target="_blank">Nazar Miller</a></div>
                 </footer>
@@ -1228,6 +1271,7 @@
 
   <!-- main js -->
   <script src="js/main.js"></script>
+  <script src="/script.js"></script>
 
 </body>
 
