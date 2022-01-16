@@ -473,12 +473,18 @@ $(function() {
       damping: 0.05,
       renderByPixel: true,
       continuousScrolling: true,
-    });
+      
+    }
+    
+    );
+    
     Scrollbar.init(document.querySelector('#scrollbar2'), {
       damping: 0.05,
       renderByPixel: true,
       continuousScrolling: true,
+      
     });
+    
 
     $("#form").submit(function() {
       $.ajax({
